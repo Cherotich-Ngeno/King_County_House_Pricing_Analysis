@@ -26,7 +26,7 @@ My final model
 Based on the adjusted R squared value of 0.807 meaning that 80% of the variability in price is explained by the variables. and the large F statistic, I can conclude that the correlation between the model and dependent variable is statistically significant, and can be used as a tool to help predict housing prices, and more importantly, identify home characteristics that affect home sale price. The final model is also notably better than the baseline model, with a higher R squared and more adherence to the normality and homoskedasticity assumptions. While the model is not perfect, I believe it could be generalized beyond the current data effectively with data from similar counties to King County, and that it would benefit any homeowner in similar areas.
 
 ## Visualization 
-#### Was renovated vs price analysis
+####  renovated home vs home price analysis
 
 ![image](https://user-images.githubusercontent.com/85990318/176922809-3b3d468b-7e69-4011-ad68-b3e6d41570ad.png)
  
@@ -39,14 +39,14 @@ As per the figure above the price of renovated housed are higher than the prices
 With a positive coefficient of 40326.13, increasing the number of floors in a home by one could result in increasing the sale price of the home by over $40,000
 
 
-#### Bathrooms vs home price analysis
+#### Number of Bathrooms in a home vs home price analysis
 
  ![image](https://user-images.githubusercontent.com/85990318/176923081-26698164-08df-4940-ac23-a236d254e4c4.png)
 
 With a positive coefficient of 22999.71, increasing the number of bathrooms in a home by one could result in increasing the sale price of the home by over $20,000
 
 
-#### condition vs price analysis
+#### Home condition vs Home price analysis
 
  ![image](https://user-images.githubusercontent.com/85990318/176923175-49e463aa-97a3-46bb-a46a-c9e487989afc.png)
 
@@ -55,8 +55,11 @@ increasing the condition of a home by one level on a scale from 1-5, could resul
 
 ## Conclusion
 •	Home renovation. As evidenced by a positive coefficient of 27897.36,means that renovating a home could result in an increase in home price of over $20,000. Based on the results, I would recommend that homeowners should renovate their homes.
+
 •	Home condition has a positive coefficient of 16290.82, increasing the condition of a home by one level on a scale from 1-5, could result in an increase in home price of over $10,000. Condition is defined by King County as an index from 1 to 5 based on the overall condition of the home. Homeowners should focus on improving the condition of the home, potentially by replacing appliances and features of the home.
+
 •	Home bathrooms. Evidenced by a positive coefficient of 22999.71, increasing the number of bathrooms in a home by one could result in an increase in home price of over $20,000. Homeowners should consider adding bathrooms as a tangible way of increasing their homes sale price.
+
 •	Home Floors. Represented by a coefficient of 40326.13, adding floors to a home could potentially have a positive impact on sale price.home owners should consider adding more floors to increase their home sale price.
 
 ## Technologies Used
